@@ -1,0 +1,65 @@
+baseURL = "http://stephaneamant.com/"
+languageCode = "en-us"
+title = "Stephane Amant"
+theme = "hugo-split-theme"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+
+# Copyright
+copyright = "&copy;2019 Stephane Amant"
+
+[params]
+
+  # Metadata for search engines and social sharing
+  author = "Stephane Amant"
+  description = "Backend developer. Python. Ruby."
+  shareImage = "images/stephane.png"
+  twitterHandle = "stephamant"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/stephane.jpg"
+      position = "right"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Connect"
+
+      [[params.links.list1.link]]
+        text = "Email"
+        url = "mailto:stephane.amant@gmail.com"
+
+      [[params.links.list1.link]]
+        text = "LinkedIn"
+        url = "https://be.linkedin.com/in/stephane-amant-88902119"
+
+      [[params.links.list1.link]]
+        text = "Twitter"
+        url = "https://twitter.com/stephamant"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Code"
+
+      [[params.links.list2.link]]
+        text = "Github"
+        url = "https://github.com/samant"
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
